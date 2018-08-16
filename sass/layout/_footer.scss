@@ -1,0 +1,142 @@
+footer {
+	background-color: $footer-color;
+	height: $footerH;
+	background-image: url("../img/footer.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-align: center;
+	position: relative;
+	box-sizing: border-box;
+	padding-top: 85px;
+	p.cont{
+		font-family: "freeset";
+		font-size: 42px;
+		color: #fff;
+		margin-bottom: 40px;
+		
+	}
+	.phone{
+		font-family:Verdana, Geneva, sans-serif;
+		font-size: 20px;
+		color: #eef4eb;
+		margin-bottom: 5px;
+		margin-left: -20px;
+		i{
+			margin-right: 10px;
+		}
+	}
+	.mail{
+		a{
+		font-family:Verdana, Geneva, sans-serif;	
+		color: #eef4eb;
+		font-size: 20px;
+		}
+		i{
+		    margin-right: 15px;
+		    margin-left: 5px;
+		}
+	}
+	.join{
+		font-family: "freeset-bold-cyrillic";
+		font-size: 26px;
+		color: #eef4eb;
+		    margin-top: 24px;
+		    margin-bottom: 20px;
+	}
+	.icon-mail:before{
+		color: #e3ffd5;
+		font-size: 25px;
+	}
+	.soc_list{
+	@include inline-block-list(0px);
+	text-align: center;
+
+	li{
+		border-radius: 50%;
+		border: 1px solid #e3ffd5;
+		width: 35px;
+		height: 35px;
+		text-align: center;
+		line-height: 30px;
+		margin: 0 4px;
+		a:hover{
+			    color: #fe793f;
+			text-decoration: none;
+		}
+		a{
+			-webkit-transition: all 0.7s ease;
+            transition: all 0.7s ease;
+		}
+	}
+}
+.bottom{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-top: 2px solid #90cd72;
+	height: 170px;
+	box-sizing: border-box;
+	padding-top: 25px;
+}
+.copyright{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #eef4eb;
+	    margin-top: 10px;
+}
+.logo-wrap{
+	text-align: center;
+	margin-bottom: 10px;
+}
+}
+ footer.lk{
+ 	  
+		background-image: none;
+		padding-top: 30px;
+		
+		.logo-wrap{
+			margin-bottom: 15px;
+		}
+		.contakts{
+			    padding-top: 35px;
+                padding-left: 10px;
+			p{
+				font-family:Verdana, Geneva, sans-serif;
+				text-align: left;
+				line-height: 19px;
+				margin-bottom: 0;
+				&.phone{
+					font-size: 14px;
+					margin-left: 0;
+				}
+				&.mail{
+					a{
+						font-size: 12px;
+						i{
+							margin-right: 6px;
+						}
+					}
+					i{
+						margin-left: 0;
+					}
+				}
+			}
+		}
+		.soc_list{
+			@include horizontal-list(1px);
+			float: right;
+			margin-top: 45px;
+			li{
+				width: 24px;
+				height: 24px;
+				line-height: 18px;
+				[class^="icon-"]:before{
+					font-size: 10px;
+				}
+			}
+		}
+	.copyright{
+		margin-top: 20px;
+	}
+	}

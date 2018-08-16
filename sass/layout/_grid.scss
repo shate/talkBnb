@@ -1,0 +1,32 @@
+@import "compass";
+@import "susy";
+$susy:(
+	container :1000px,
+	columns: 12,  
+	  
+  
+  debug: (
+    image: hide,
+    color: rgba(#66f, .65),
+   
+  )
+  );
+
+.wrap{
+	@include container;
+}
+.content{	
+	width: 100%;
+	overflow: hidden;
+    padding: 0 0 $footerH;
+   
+	}
+.lk .content{
+	padding: 0 0 $footerLk;
+}
+
+
+
+
+
+

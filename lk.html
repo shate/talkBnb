@@ -1,0 +1,731 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Lk</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<!--[if (gte IE 7)&(lte IE 8)]>
+      <script type="text/javascript" src="js/selectivizr-min.js">
+    /* pseudo elements support */
+    </script>
+
+    <script type="text/javascript">
+    /* emulate HTML5 elements */
+    var E  = ('article:aside:audio:canvas:figure:footer:header:hgroup:nav:section:video:output:detalis:keygen:meter:progress:figcaption:mark:summary:div class="time":wbr').split(':');   
+      for (var c = 0; c < E.length; c++) {
+        document.createElement(E[c]);
+      } 
+    </script>
+    <link href="css/ie.css" rel="stylesheet" type="text/css">
+     <![endif]-->
+</head>
+
+<body>
+<div id="container" class="lk">
+  <header>
+    <div class="wrap">
+      <article> <a href="/" class="ico-logo-lk">ЛОГО</a> <a href="/" class="ico-logo-lk-m">ЛОГО</a></article>
+      <article class="cf">
+        <div>
+          <button type="button" class="navbar-toggle"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <nav>
+            <ul class="header_nav">
+              <li><a href="#">What is Talkbnb?</a></li>
+              <li><a href="#" class="show_form">Become a host</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#" class="login">Log in</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="cf">
+        <p class="user">
+        <img src="img/user.png" alt="">
+        Vladislav</p>
+        </div>
+        <div class="cf">
+          <div class="lang">
+            <p class="select_lang" id="selected"> English <i class="ico-gb"></i> </p>
+            <ul class="list_lang">
+              <li>
+                <p class="select_lang">French<i class="ico-fr"></i></p>
+              </li>
+              <li>
+                <p class="select_lang">German<i class="ico-gm"></i></p>
+              </li>
+              <li>
+                <p class="select_lang">Italian<i class="ico-it"></i></p>
+              </li>
+              <li>
+                <p class="select_lang">Spanish<i class="ico-sp"></i></p>
+              </li>
+              <li>
+                <p class="select_lang">Japanese<i class="ico-jp"></i></p>
+              </li>
+            </ul> 
+          </div>
+       
+        </div>
+      </article>
+    </div>
+    <div class="dop-nav">
+      <div class="wrap">
+        <ul class="dop-list">
+          <li class="active"><a href="">Profile</a></li>
+          <li><a href="support.html">Support</a></li>
+          <li><a href="">Password settings</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div class="content">
+  <div class="wrap">
+   <aside>
+     <ul class="aside-list">
+       <li class="current">Personal details</li>
+       <li>Property details</li>
+       <li>Host family</li>
+       <li>Guest preferences</li>
+       <li>Summary</li>
+     </ul>
+   </aside>
+    
+      <div class="inner">
+      <form action="" class="step-form">
+      <!-- 1 -->
+            <div class="box">
+    <h2>Step 1 - <span>Personal details</span></h2>    
+    <div class="inner-form  box1">
+      <p><span class="req">First name:</span>
+      <label class="mess">
+      <input type="text" name="" id="" placeholder="Vladislav">
+      <span class="tooltip"></span>
+      </label>
+      </p>
+      <p><span>Last name:</span>
+      <label class="mess">
+      <input type="text" name="" id="" placeholder="Vladislav">
+        <span class="tooltip"></span>
+      </label>
+      </p>
+      <div><span>Sex:</span>
+      <div class="select-cont">
+<span class="radio">
+        <input id="m" type="radio" name="sex" value="m" checked="checked">
+        <label for="m" class="radio">m</label>
+      
+      </span>
+      <span class="radio">
+        <input id="f" type="radio" name="sex" value="f">
+        <label for="f" class="radio">f</label>
+        </span>
+        </div>
+        </div>
+      
+      <p><span>Age:</span><input type="text" name="" id="" placeholder="37"></p>
+      <p><span>Occupation:</span><input type="text" name="" id="" placeholder="Builder"></p>
+      <div><span>Native language:</span><div class="select-cont">
+                <p></p>
+                <select name="native_language" id="">
+                  <option value="english">english</option>
+                  <option value="french">french</option>
+                  <option value="italian">italian</option>
+                  <option value="spanish">spanish</option>
+                  <option value="japanese">japanese</option>
+                </select>
+              </div></div>
+      <div>Secondary language:<div class="select-cont">
+                <p></p>
+                <select name="secondary_language" id="">
+                  <option value="english">english</option>
+                  <option value="french">french</option>
+                  <option value="italian">italian</option>
+                  <option value="spanish">spanish</option>
+                  <option value="japanese">japanese</option>
+                </select>
+              </div></div>
+      <p><span class="req">Phone number:</span>
+     <label class="mess error">
+      <input type="text" name="" id="" placeholder="(915) 000-0000">
+      <span class="tooltip small">incorrectly filled field!</span>
+      </label>
+      </p>
+      <p><span class="req">E-mail:</span>
+      <label class="mess error">
+      <input type="text" name="" id="" >
+      <span class="tooltip">Is not filled required field!</span>
+      </label
+      </p>
+      <div class="add-photo bbn">
+      <p>Add photo:</p>
+      <div class="photo-wrap">
+
+      <figure>
+        <img src="pic/1.jpg" alt="">
+        
+      </figure>
+      <div class="like">
+          <a href=""><img src="pic/g.jpg" alt=""></a>
+          <a href=""><img src="pic/f.jpg" alt=""></a>
+          <a href=""><img src="pic/l.jpg" alt=""></a>
+        </div>
+      </div>
+      
+      </div>
+
+   </div>
+    <p class="bbn"><span class="warning">required fields!</span></p>
+    <div class="buttons cf">
+    <button class=" gray-border continue">Edit</button> 
+    <button class=" green-border continue" type="submit">Save</button> 
+    <a href="" class="green-button icon-right-open continue">Continue</a>
+    </div>
+    </div>
+    <!-- end1 -->
+    <!-- 2 -->
+    <div class="box hide">
+    <h2>Step 2 - <span>Property details</span></h2>
+    <div class="inner-form  box2">
+    <div><span>Do you live in a:</span>
+      <div class="select-cont">
+<span class="radio">
+        <input id="h" type="radio" name="live" value="House" checked="checked">
+        <label for="h" class="radio">House</label>
+      
+      </span>
+      <span class="radio">
+        <input id="a" type="radio" name="live" value="Apartment">
+        <label for="a" class="radio">Apartment</label>
+        </span>
+        </div>
+        </div>
+<div><span>Home address:</span>
+      <label class="mess">
+      <input type="text" name="" id=""  placeholder="Enter your address here">
+        <span class="tooltip"></span>
+      </label>
+      <div class="select-cont rem">
+        <input id="rem" type="checkbox" name="rem" value="" checked="checked">
+        <label for="rem" class="checkbox">Address verification <small>(validation will e-mail address!)</small></label>
+      </div>
+      </div>
+<div class="add-photo bbn">
+  <div class="photo-wrap">
+    <div class="select-cont  cf">
+<span class="radio">
+        <input id="pb" type="radio" name="bathroom" value="Private" checked="checked">
+        <label for="pb" class="radio">Private bathroom</label>
+      
+      </span>
+      <span class="radio">
+        <input id="sb" type="radio" name="bathroom" value="Shared">
+        <label for="sb" class="radio">Shared bathroom</label>
+        </span>
+        </div>
+        <p class="chb-wrap">
+        <span> <input id="essentials" type="checkbox" name="essentials" value="">
+        <label for="essentials" class="checkbox  help">Essentials
+         <span class="hide">towels, bedsheets, soapandtoiletpaper</span>
+        </label></span>
+        <span> <input id="iron" type="checkbox" name="iron" value="">
+        <label for="iron" class="checkbox">Iron</label></span>
+        </p>
+        <p class="chb-wrap">
+        <span> <input id="hair" type="checkbox" name="hair" value="">
+        <label for="hair" class="checkbox">Hair Dryer</label></span>
+        <span> <input id="tub" type="checkbox" name="tub" value="">
+        <label for="tub" class="checkbox">Hot Tub</label></span>
+        </p>
+        <p class="chb-wrap">
+        <span> <input id="conditioning" type="checkbox" name="conditioning" value="">
+        <label for="conditioning" class="checkbox">Air Conditioning</label></span>
+        <span> <input id="washer" type="checkbox" name="washer" value="">
+        <label for="washer" class="checkbox">Washer</label></span>
+        </p>
+        <p class="chb-wrap">
+        <span> <input id="heating" type="checkbox" name="heating" value="">
+        <label for="heating" class="checkbox">Heating</label></span>
+        <span> <input id="dryer" type="checkbox" name="dryer" value="">
+        <label for="dryer" class="checkbox">Dryer</label></span>
+        </p>
+        <p class="chb-wrap">
+        <span> <input id="tv" type="checkbox" name="tv" value="">
+        <label for="tv" class="checkbox">TV</label></span>
+        <span> <input id="pool" type="checkbox" name="pool" value="">
+        <label for="pool" class="checkbox">Pool</label></span>
+        </p>
+        <p class="chb-wrap">
+        <span> <input id="internet" type="checkbox" name="internet" value="">
+        <label for="internet" class="checkbox">Internet</label></span>
+        <span> <input id="parking" type="checkbox" name="parking" value="">
+        <label for="parking" class="checkbox">Free Parking on Premises</label></span>
+        </p>
+        <p class="chb-wrap">
+        <span> <input id="hangers" type="checkbox" name="hangers" value="">
+        <label for="hangers" class="checkbox">Hangers</label></span>
+        
+        </p>
+  </div>
+  <p>Property details and <br> 
+amenities:</p>
+</div>
+        </div>
+        <div class="buttons cf"> 
+     <a href="" class="green-button icon-right-open continue back">Back</a>   
+    <a href="" class="green-button icon-right-open continue">Continue</a>
+    </div>
+    </div>
+    <!-- end2 -->
+    <!-- 3 -->
+    <div class="box hide">
+    <h2>Step 3 - <span>Host Family</span></h2>
+    <div class="inner-form  box3">
+    <p class="bdn">Number of adults live with you in your household:
+      <label>
+      <input type="text" name="" id="" class="bordered central w50" value="2">
+        
+      </label>
+      </p>
+      <ul class="bordered-list">
+        <li>
+          <p>Name <input type="text" name="" id="" class="bordered  w150" placeholder="Siverina">
+          Age <input type="text" name="" id="" class="bordered  w75" placeholder="41">
+          Sex:&nbsp;&nbsp;
+
+          <span class="radio">
+        <input id="mm3" type="radio" name="sexm3" value="m">
+        <label for="mm3" class="radio">m</label>
+      
+      </span>
+      <span class="radio">
+        <input id="ff3" type="radio" name="sexm3" value="f"  checked="checked">
+        <label for="ff3" class="radio">f</label>
+        </span>
+      
+          </p>
+          <p>Relationship to the applicant <input type="text" name="" id="" class="bordered  w95" placeholder="missis"></p>
+          <div class="fl cf"><span>Native language:</span><div class="select-cont long">
+                <p class="smoller long"></p>
+                <select name="secondary_language" id="">
+                  <option value="english">english</option>
+                  <option value="french">french</option>
+                  <option value="italian">italian</option>
+                  <option value="spanish">spanish</option>
+                  <option value="japanese">japanese</option>
+                </select>
+              </div></div>
+        </li>
+        <li>
+          <p>Name <input type="text" name="" id="" class="bordered  w150" placeholder="Baltazar">
+          Age <input type="text" name="" id="" class="bordered  w75" placeholder="47">
+          Sex:&nbsp;&nbsp;<span class="radio">
+        <input id="m3" type="radio" name="sex3" value="m" checked="checked">
+        <label for="m3" class="radio">m</label>
+      
+      </span>
+      <span class="radio">
+        <input id="f3" type="radio" name="sex3" value="f">
+        <label for="f3" class="radio">f</label>
+        </span>
+          </p>
+          <p>Relationship to the applicant <input type="text" name="" id="" class="bordered  w95" placeholder="mister"></p>
+          <div class="fl cf"><span>Native language:</span>
+          <div class="select-cont long">
+                <p class="smoller long"></p>
+                <select name="secondary_language" id="">
+                  <option value="english">english</option>
+                  <option value="french">french</option>
+                  <option value="italian">italian</option>
+                  <option value="spanish">spanish</option>
+                  <option value="japanese">japanese</option>
+                </select>
+              </div></div>
+        </li>
+      </ul>
+<!--  -->
+<p class="bdn">Number of children live with you in your household:
+      <label>
+      <input type="text" name="" id="" class="bordered central w50" value="1">
+        
+      </label>
+      </p>
+      <ul class="bordered-list">
+        <li>
+          <p>Name <input type="text" name="" id="" class="bordered  w150" placeholder="Ketrina">
+          Age <input type="text" name="" id="" class="bordered  w75" placeholder="14">
+          Sex:&nbsp;&nbsp;<span class="radio">
+        <input id="mm3" type="radio" name="sexm3" value="m">
+        <label for="mm3" class="radio">m</label>
+      
+      </span>
+      <span class="radio">
+        <input id="ff3" type="radio" name="sexm3" value="f"  checked="checked">
+        <label for="ff3" class="radio">f</label>
+        </span>
+          </p>
+          <p>Relationship to the applicant <input type="text" name="" id="" class="bordered  w95" placeholder="miss"></p>
+          <div class="fl cf"><span>Native language:</span><div class="select-cont long">
+                <p class="smoller long"></p>
+                <select name="secondary_language" id="">
+                  <option value="german">english</option>
+                  <option value="french">french</option>
+                  <option value="italian">italian</option>
+                  <option value="spanish">spanish</option>
+                  <option value="japanese">japanese</option>
+                </select>
+              </div></div>
+        </li>
+       
+      </ul>
+<!--  -->
+<div>
+<div class="fl cf">
+<p class="bbn">Pets in the household:</p>
+      <div class="select-cont">
+<span class="radio">
+        <input id="yes" type="radio" name="pets" value="yes" checked="checked">
+        <label for="yes" class="radio">yes</label>
+      
+      </span>
+      <span class="radio">
+        <input id="no" type="radio" name="pets" value="no">
+        <label for="no" class="radio">no</label>
+        </span>
+        </div>
+       </div> 
+       <div class="bordered-list bbn">
+          <p class="bbn">Please specify <input type="text" name="" id="" class="bordered  w95" placeholder="Hamster"></p>
+          </div>
+      
+        </div>
+        <!--  -->
+        
+        <!--  -->
+        <div class="fl bbn"><span>Do you / anyone in your household smoke </span>
+      <div class="select-cont">
+<span class="radio">
+        <input id="smoke-yes" type="radio" name="smoke" value="yes" checked="checked">
+        <label for="smoke-yes" class="radio">yes</label>
+      
+      </span>
+      <span class="radio">
+        <input id="smoke-no" type="radio" name="smoke" value="no">
+        <label for="smoke-no" class="radio">no</label>
+        </span>
+        </div>
+        </div>
+      </div>
+      <div class="buttons cf"> 
+     <a href="" class="green-button icon-right-open continue back">Back</a>   
+    <a href="" class="green-button icon-right-open continue">Continue</a>
+    </div>
+    </div>
+    <!-- end3 -->
+    <!-- 4 -->
+    <div class="box hide">
+    <h2>Step 4 - <span>Guest Preferences</span></h2>
+    <div class="inner-form  box4">
+    <div class="cf">
+      <p class="bdn">Do you prefer to host:</p>
+      <p class="chb-wrap first bdn"> <span> <input id="male4" type="checkbox" name="male4" value="">
+        <label for="male4" class="checkbox">Male</label></span>
+        <span> <input id="female4" type="checkbox" name="female4" value="">
+        <label for="female4" class="checkbox">Female</label></span></p>
+        </div>
+        <div class="cf">
+        <p class="bdn">Age:</p>
+        <div class="two_columns cf">
+          <article>
+            <p class="chb-wrap bdn"> <span> <input id="male4" type="checkbox" name="male4" value="">
+        <label for="male4" class="checkbox">Under 14 </label></span>
+      </p>
+<p class="chb-wrap bdn"> <span> <input id="a15-21" type="checkbox" name="a15-21" value="">
+        <label for="a15-21" class="checkbox">15-21</label></span>
+      </p>
+      <p class="chb-wrap bdn"> <span> <input id="a21-30" type="checkbox" name="a21-30" value="">
+        <label for="a21-30" class="checkbox">21-30</label></span>
+      </p>
+          </article>
+          <article>
+            <p class="chb-wrap bdn">
+        <span> <input id="a30-40" type="checkbox" name="a30-40" value="">
+        <label for="a30-40" class="checkbox">30-40</label></span></p>
+        <p class="chb-wrap bdn">
+        <span> <input id="a40-50" type="checkbox" name="a40-50" value="">
+        <label for="a40-50" class="checkbox">40-50</label></span></p>
+        <p class="chb-wrap bdn">
+        <span> <input id="a50" type="checkbox" name="a50" value="">
+        <label for="a50" class="checkbox">50 +</label></span></p>
+          </article>
+        </div>
+      </div>
+     
+      <p>Expected payment per week:<label>
+      <input type="text" name="" id="" class="bordered central w50" value="20">
+        
+      $</label></p>
+   
+    <div class="cf">
+      <p class="bdn">Preferred length of stay:<label>
+      <input type="text" name="" id="" class="bordered central w50" value="20">
+        
+      days</label></p>
+      <p class="bdn"><label>min
+      <input type="text" name="" id="" class="bordered central w50" value="7">
+        
+      days</label>
+&nbsp;&nbsp;
+      <label>max
+      <input type="text" name="" id="" class="bordered central w50" value="17">
+        
+      days</label></p>
+      <p class="black bdn">Any limitations in your schedule: <input type="text" name="" id="" class="bordered  w150" placeholder="2 days vacation"></p>
+    </div>
+    <div>Meal plan:&nbsp;&nbsp;
+      <div class="select-cont fln">
+<span class="radio">
+        <input id="plany" type="radio" name="plan" value="yes" checked="checked">
+        <label for="plany" class="radio">yes</label>
+      
+      </span>
+      <span class="radio">
+        <input id="plann" type="radio" name="plan" value="no">
+        <label for="plann" class="radio">no</label>
+        </span>
+        </div>
+        <div class="two_columns cf">
+          <article>
+            <p class="chb-wrap bdn">
+        <span> <input id="room" type="checkbox" name="" value="">
+        <label for="room" class="checkbox">Room Only</label></span></p>
+        <p class="chb-wrap bdn">
+        <span> <input id="breakfast" type="checkbox" name="" value="">
+        <label for="breakfast" class="checkbox">Breakfast Only </label></span></p>
+          </article>
+          <article>
+            <p class="chb-wrap bdn">
+        <span> <input id="bd" type="checkbox" name="" value="">
+        <label for="bd" class="checkbox">Breakfast and Dinner</label></span></p>
+        <p class="chb-wrap bdn">
+        <span> <input id="bld" type="checkbox" name="" value="">
+        <label for="bld" class="checkbox">Breakfast, Lunch and Dinner </label></span></p>
+          </article>
+        </div>
+        </div>
+        <div class="cf">
+        Are you willing to pick up your guest at the airport?&nbsp;&nbsp;
+          <div class="select-cont fln">
+<span class="radio">
+        <input id="airporty" type="radio" name="airport" value="yes" checked="checked">
+        <label for="airporty" class="radio">yes</label>
+      
+      </span>
+      <span class="radio">
+        <input id="airportn" type="radio" name="airport" value="no">
+        <label for="airportn" class="radio">no</label>
+        </span>
+        </div>
+        
+          <p class="black bdn">Expected payment for guest pick up at at the airport  <input type="text" name="" id="" class="bordered central w50" value="1500">$</p>
+        </div>
+        
+    </div>
+    <div class="buttons cf"> 
+     <a href="" class="green-button icon-right-open continue back">Back</a>   
+    <a href="" class="green-button icon-right-open continue">Continue</a>
+    </div>
+    </div>
+    <!-- end4 -->
+    <!-- 5 -->
+    <div class="box hide">
+    <h2>Step 5 - <span>Summary</span></h2>
+    <h2 class="second">Confirm your details:</h2>
+    <div class="inner-form  box5">
+    <!-- 1 -->
+      <div class="part part1">
+        <h3>Step 1 - <span>Personal details</span></h3>
+        <div>First name:<div class="select-cont">
+               Vladislav 
+              </div></div>
+         <div>Last name:<div class="select-cont">
+               Vladislav 
+              </div></div>
+              
+              <div>Sex:<div class="select-cont">
+               m 
+              </div></div> 
+              <div>Age:<div class="select-cont">
+               37
+              </div></div>
+              <div>Occupation:<div class="select-cont">
+               Builder
+              </div></div> 
+              <div>Native language:<div class="select-cont">
+               english
+              </div></div> 
+              <div>Secondary language:<div class="select-cont">
+               english
+              </div></div>
+              <div>Phone number:<div class="select-cont">
+               (915)235-4748
+              </div></div> 
+              <div>E-mail:<div class="select-cont">
+               vladislav1@gmail.com
+              </div></div> 
+              <div class="add-photo bbn">
+      <div class="photo-wrap">
+      <figure>
+        <img src="pic/1.jpg" alt="">
+        
+      </figure>
+      
+      </div>
+      <p>Add photo:</p>
+      </div> 
+      </div>
+      <!--  -->
+      <!-- 2 -->
+      <div class="part part2">
+        <h3>Step 2 - <span>Property details</span></h3>
+        <div>Do you live in a:<div class="select-cont">
+               House
+              </div></div>
+              <div>Home address:<div class="select-cont">
+                Snegovaya street, 75-168, USA, 
+ Kanzas, 5356789
+              </div></div>
+              <div class="bdn"><span>Property details and 
+amenities:</span><div class="select-cont">
+              <p class="bdn">Private bathroom</p>
+              <p class="bdn last">Essentials / Air Conditioning /  TV /  Internet / Hot Tub / Dryer / Free Parking on Premises</p>
+              </div></div>
+      </div>
+      <!--  -->
+      <!-- 3 -->
+      <div class="part part3">
+        <h3>Step 3 - <span>Host Family</span></h3>
+        <p class="bdn">Number of adults live with you in your household: <span class="black">2</span></p>
+        <ul class="bordered-list">
+        <li>
+         <p>Name: <span>Siverina</span> Age: <span>41</span> Sex: <span>f</span> </p>
+         <p>Relationship to the applicant: <span>missis</span></p>
+         <p>Native language: <span>english</span></p>
+        </li>
+        <li>
+          <p>Name: <span>Baltazar</span> Age: <span>47</span> Sex: <span>m</span> </p>
+         <p>Relationship to the applicant: <span> mister</span></p>
+         <p>Native language: <span>english</span></p>
+        </li>
+      </ul>
+      <p class="bdn">Number of children live with you in your household: <span class="black">1</span></p>
+        <ul class="bordered-list">
+        <li>
+         <p>Name: <span>Ketrina</span> Age: <span>14</span> Sex: <span>f</span> </p>
+         <p>Relationship to the applicant: <span>miss</span></p>
+         <p>Native language: <span>english</span></p>
+        </li>
+        
+      </ul>
+      <p>Pets in the household: <span class="black">yes</span><br><span class="black">Hamster</span></p>
+      <p class="bdn">Do you / anyone in your household smoke:  <span class="black">yes</span></p>
+      </div>
+      <!--  -->
+      <!-- 4 -->
+      <div class="part part4">
+        <h3>Step 4 - <span>Guest Preferences</span></h3>
+        <p>Do you prefer to host:  <span class="black">Female</span></p>
+        <p>Age:  <span class="black">30-40</span></p>
+        <p>Expected payment per week:  <span class="black">20$</span></p>
+        <p class="bdn">Preferred length of stay:  <span class="black">20 days</span></p>
+        <p class="black bdn">min <span>7</span> days&nbsp;&nbsp; max <span>17</span> days</p>
+        <p class="black">Any limitations in your schedule:  <span>2 days vacation</span></p>
+        <p class="bdn">Meal plan:  <span class="black">yes</span></p>
+        <p class="black">Breakfast and Dinner</p>
+        <p class="bdn">Are you willing to pick up your guest at the airport?  <span class="black">yes</span></p>
+        <p class="black">Expected payment for guest pick up at at the airport: <span>1500$</span></p>
+        <p class="black bdn"><span> <input id="date" type="checkbox" name="" value="">
+        <label for="date" class="checkbox normal-size">I acknowledge that my photo and my details except exact address, will be available for potentials guests</label></span>
+        <small>(It should be mandatory compliance with the rules!)</small>
+        </p>
+        <p class="black bdn"><span> <input id="date1" type="checkbox" name="" value="">
+        <label for="date1" class="checkbox normal-size">I acknowledge that my photo and my details except exact address, will be available for potentials guests</label></span>
+        
+        </p>
+        <p class="black bdn"><span> <input id="date2" type="checkbox" name="" value="">
+        <label for="date2" class="checkbox normal-size">I acknowledge that my photo and my details except exact address, will be available for potentials guests</label></span>
+        
+        </p>
+        <p class="black bdn"><span> <input id="date3" type="checkbox" name="" value="">
+        <label for="date3" class="checkbox normal-size">I acknowledge that my photo and my details except exact address, will be available for potentials guests</label></span>
+        
+        </p>
+      </div>
+     <!--  -->
+    </div>
+    <div class="buttons cf"> 
+     <button class=" green-border continue">Edit</button>   
+    <button  class="green-button icon-right-open continue" type="submit">Confirm</button >
+    </div>
+    </div>
+    <!-- end5 -->
+     </form>
+  </div>
+
+  </div>
+</div>
+</div>
+<footer class="lk">
+<div class="wrap">
+  <article>
+  <div class="contakts">
+    <p class="phone"><i class="ico-phone-lk"></i>855-8-TALKBNB</p>
+    <p class="mail"><i class="ico-mail-lk"></i><a href="mailto:hello@talkbnb.com">hello@talkbnb.com</a></p>
+    </div>
+  </article>
+  <article>
+    <div class="logo-wrap"> <i class="ico-logo-lk-footer"></i> </div>
+    <nav>
+      <ul class="footer_nav">
+        <li><a href="#">Terms &amp; Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </nav>
+    <div class="copyright">&copy; 2015 Talkbnb</div>
+  </article>
+  <article>
+    <ul class="soc_list">
+    <li><a href="" class="icon-facebook"></a></li>
+    <li><a href="" class="icon-instagram"></a></li>
+    <li><a href="" class="icon-twitter"></a></li>
+    <li><a href="" class="icon-gplus"></a></li>
+    <li><a href="" class="icon-vk"></a></li>
+  </ul>
+  </article>
+  </div>
+
+</footer>
+<div id="pop-up" class="poup">
+  <div class="login-form-wrap">
+    <div class="login-form"> <a href="" class="fb"><i class="icon-facebook"></i>Sign up with Facebook</a> <a href="" class="google"><i class="ico-google"></i>Sign up with Google</a> <a href="" class="mail"><i class="ico-mail-w"></i>Sign up with Email</a>
+      <p class="chb last">Already have an account?<a href="" id="login">Log in</a></p>
+    </div>
+    <form action="" class="login-form">
+      <input type="email" name="" id="" placeholder="Email Address" >
+      </p>
+      <p class="icon-lock-alt">
+        <input type="password" name="" id="" placeholder="Password">
+      </p>
+      <p class="chb">
+        <input  id="rem" type="checkbox" name="rem" value="Remember me">
+        <label for="rem" class="checkbox">Remember me</label>
+        <a href="">Forgot password?</a></p>
+      <button type="submit">Log in</button>
+    </form>
+  </div>
+</div>
+<script src="js/jquery-1.7.1.min.js"></script> 
+<script src="js/select.js"></script> 
+<script src="js/script.js"></script>
+</body>
+</html>

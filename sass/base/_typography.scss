@@ -1,0 +1,118 @@
+@include font-face("SeroPro-Light", font-files("SeroPro-Light.ttf", "SeroPro-Light.eot","SeroPro-Light.woff","SeroPro-Light.svg"));
+@include font-face("SeroPro-Medium", font-files("SeroPro-Medium.ttf", "SeroPro-Medium.eot","SeroPro-Medium.woff","SeroPro-Medium.svg"));
+@include font-face("3969", font-files("3969.ttf", "3969.eot","3969.woff","3969.svg"));
+@include font-face("MyriadPro-Regular", font-files("MyriadPro-Regular.ttf", "MyriadPro-Regular.eot","MyriadPro-Regular.woff","MyriadPro-Regular.svg"));
+@include font-face("MyriadPro-Bold", font-files("MyriadPro-Bold.ttf", "MyriadPro-Bold.eot","MyriadPro-Bold.woff","MyriadPro-Bold.svg"));
+@include font-face("MyriadPro-BoldCond", font-files("MyriadPro-BoldCond.ttf", "MyriadPro-BoldCond.eot","MyriadPro-BoldCond.woff","MyriadPro-BoldCond.svg"));
+@include font-face("MyriadPro-Semibold", font-files("MyriadPro-Semibold.ttf", "MyriadPro-Semibold.eot","MyriadPro-Semibold.woff","MyriadPro-Semibold.svg"));
+@include font-face("MyriadPro-Cond", font-files("MyriadPro-Cond.ttf", "MyriadPro-Cond.eot","MyriadPro-Cond.woff","MyriadPro-Cond.svg"));
+@include font-face("SeroPro-Bold", font-files("SeroPro-Bold.ttf", "SeroPro-Bold.eot","SeroPro-Bold.woff","SeroPro-Bold.svg"));
+
+@include font-face("SeroPro-Extralight", font-files("SeroPro-Extralight.ttf", "SeroPro-Extralight.eot","SeroPro-Extralight.woff","SeroPro-Extralight.svg"));
+@include font-face("SeroPro-ExtralightItalic", font-files("SeroPro-ExtralightItalic.ttf", "SeroPro-ExtralightItalic.eot","SeroPro-ExtralightItalic.woff","SeroPro-ExtralightItalic.svg"));
+@include font-face("SeroPro", font-files("SeroPro.ttf", "SeroPro.eot","SeroPro.woff","SeroPro.svg"));
+@include font-face("freeset-bold-cyrillic", font-files("freeset-bold-cyrillic.ttf", "freeset-bold-cyrillic.eot","freeset-bold-cyrillic.woff","freeset-bold-cyrillic.woff2"));
+@include font-face("fontello", font-files("e800.ttf", "e800.eot","e800.woff","e800.ttf","e800.svg?"));
+@include font-face("freeset", font-files("freeset.ttf", "freeset.eot","freeset.woff","freeset.woff2"));
+body{
+	font-family: $base-font;	
+	color: $base-font-color;
+	font-size: $base-font-size;	
+}
+
+h1{
+	font-family: "MyriadPro-Bold";
+	
+	text-align: center;	
+	margin-bottom: 20px;
+	letter-spacing: 0.01em;
+}
+h2{
+	font-family: "MyriadPro-BoldCond";
+	font-size: 45px;
+	text-align: center;
+}
+h3{
+	font-family: "MyriadPro-Cond";
+	color: #adadad;
+	font-size: 34px;
+	text-align: center;
+	letter-spacing: 0;
+	margin-bottom: 35px;
+	line-height: 35px;
+}
+h4{
+	font-family: "3969";
+	font-size: 20px;
+}
+h5{
+	
+	font-size: 20px;
+	text-align: center;
+}
+a{
+	@include link-colors($normal, $hover);
+	text-decoration: none;
+	&:hover{
+		text-decoration: underline;
+	}
+}
+b{
+	font-family: "SeroPro-Medium";
+
+}
+.green{
+	color: #5ba348 !important;
+	span{
+		color: #f87e53;
+	}
+}
+p{
+	font-family: "medium-content-serif-font",Georgia,Cambria,"Times New Roman",Times,serif;
+	font-weight: 400;
+font-style: normal;
+font-size: 21px;
+line-height: 1.58;
+letter-spacing: -0.003em;
+&.tac{
+	text-align: center;
+}
+}
+a.tdu{
+	text-decoration: underline;
+	color: $base-font-color;
+}
+.max-sps{
+	word-spacing: 0.95em;
+}
+.warning{
+	font-family: "SeroPro";
+	font-size: 15px;
+	color: #ff7c42;
+	position: relative;
+	display: inline-block;
+	&:before{
+                content: '*';
+                color: #ff7c42;
+                position: relative;
+            }
+}
+.bdn{
+	border: none !important;
+}
+.w50{
+	width: 50px !important;
+}
+.w75{
+	width: 75px !important;
+}
+.w95{
+	width: 95px !important;
+}
+.w150{
+	width: 150px !important;
+}
+.fln{
+	float: none !important;
+	display: inline-block;
+}

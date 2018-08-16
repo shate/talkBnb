@@ -1,0 +1,97 @@
+button{
+  font-family: $base-font;  
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  padding: 0;
+  border: none;
+  text-align: center;
+}
+.become{
+	font-family: "MyriadPro-Regular";
+	background-color: #67a955;
+	border: 3px solid #fafaf9;
+	display: inline-block;
+	line-height: 69px;
+    font-size: 30px;
+    text-decoration: none;
+    width: 322px;
+    height: 70px;
+    &:hover{
+    	text-decoration: none;
+    }
+}
+button[type=submit], .green-button{
+	color: #fff;
+	//font-family: "plumbcondensed-bold";
+	font-size: 22px;
+	background-color: #71b75e;
+	border-radius: 5px;
+	height: 38px;
+	display: block;
+	margin: auto;
+	line-height: 38px;
+	position: relative;
+	text-align: center;
+	
+}
+.green-button{
+	&:before{
+		position: absolute;		
+	    font-size: 15px;
+	    top: 12px;
+	}
+}
+.green-button{
+	border-radius: 0;
+	width: 225px;
+	&:hover{
+		text-decoration: none;
+	}
+}
+.login-button{
+	font-family: "MyriadPro-Bold";
+	font-size: 14px;
+	border: 2px solid #fc7f47;
+	color: #fc7f47;
+	padding: 5px 20px;
+	float: right;
+}
+.continue{
+	font-family: "MyriadPro-Bold";
+	width: 205px;
+	font-size: 24px;
+}
+.green-border{
+	border: 2px solid #7fbe6e;
+	color: #7fbe6e;
+}
+.gray-border{
+	border: 2px solid #ababab;
+	color: #ababab;
+}
+.lk{
+	button{
+		border-radius: 0;
+	}
+}
+.navbar-toggle{
+	display: none;
+	    position: relative;
+    float: left;
+        padding: 12px 10px 10px;
+    
+    background-color: transparent;
+    background-image: none;
+    border: 2px solid #65a652;
+    border-radius: 4px;
+    cursor: pointer;
+	.icon-bar{
+   display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #65a652;
+    margin-bottom: 3px;
+	}
+}

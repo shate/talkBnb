@@ -1,0 +1,10 @@
+
+@mixin wh($pic){
+	 width: ico-sprite-width($pic);
+     height: ico-sprite-height($pic); 
+}
+@mixin psevdo{
+	content: '';
+	position: absolute;
+	display: inline-block;	
+}	

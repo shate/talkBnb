@@ -1,0 +1,60 @@
+header {
+	height: $headrH;
+	background-color: $header-color;
+	box-sizing: border-box;
+	padding-top: 5px;
+	    margin-bottom: -65px;
+    position: relative;
+    float: left;
+    width: 100%;
+    z-index: 100;
+	
+	[class^="ico-"]{				
+	    text-indent: -9999px;
+	     outline: none;	    
+	}
+	
+	.lang{
+		float: right;
+		color: #42a342;
+		font-size: 15px;
+		position: relative;
+		
+		.select_lang{
+			
+			line-height: 15px;
+			overflow: hidden;
+			cursor: pointer;
+			font-size: 15px;
+			height: 38px;
+			i{
+		  float: right;
+		  margin-left: 6px;
+			}
+
+		}
+		
+		.list_lang{
+			display: none;
+			position: absolute;
+			border: 2px solid #6fc457;
+			border-radius: 5px;
+			background-color: rgba(#5ba348, .9);
+			width: 100px;
+			text-align: center;
+			padding: 13px 30px 8px 20px;
+			z-index: 10;
+            top: 25px;
+            right: -35px;
+			li{
+            margin-bottom: 10px;
+            text-align: right;
+             color: #000;
+            &:hover{
+            	text-decoration: underline;
+            }
+			}
+		}
+	}
+	
+}
